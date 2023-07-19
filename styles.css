@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+/* Google fonts */
+body{
+font-family: 'Lato', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+/*primary styles*/
+.gray-text{
+    color: #3C354F;
+
+}
+.grad-pink-txt{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*header styles starts */
+
+/*nav section */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.logo-txt::first-letter {
+    color: #F948B2;
+}
+.logo-txt{
+    /*text-align: center;*/
+    font-weight: 700;
+    font-size: 2.83rem /*45px;*/
+    color: #0B0223;
+  }
+
+  /*nav-menu*/
+  .nav-menu{
+    
+  }
+  ul.nav-menu-option{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  li{
+    list-style: none;
+    color: #3C354F;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+  }
+  
+  li.nav-social-area{
+    display: flex;
+    justify-content: around;
+    
+  }
+  .nav-social{
+    display: flex;
+    justify-content: around;
+  }
+  .nav-social img{
+    width: 20px;
+    margin-left:10px;
+  }
+
+  li.nav-social-area:hover {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 1em;
+
+}
+
+/*banner section */
+.banner-section{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.banner-main {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 923px;
+	/* padding: 0 40px; */
+	padding: 30px;
+}
+
+.banner-txt{
+    width: 550px;
+}
+
+.banner-txt h2 {
+    /* text-align: center; */
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.black-txt{
+    color: #0B0223;
+}
+
+h2.goat{
+font-size: 5.93rem;
+font-weight: 800;
+text-transform: uppercase;
+}
+.banner-txt p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+/*button*/
+.banner-btn{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.primary-btn {
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    border-radius: 3rem;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+}
+.secondary-btn{
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    background: #4EC5F7;
+}
+.banner-image{
+}
+.banner-img{
+    max-width: 100%; } /*header section end*/
+
+
+/*main section starts */
+.main-section{
+    background
+}
+main{
+    width: 923px;
+    margin: 0 auto;
+}
+/*gamer section*/
+.gamer-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 61px;
+}
+.gamer-photo {
+    width: 500px;
+}
+.gamer-photo img {
+    max-width: 100%;
+}
+.gamer-txt{
+max-width: 50%;
+}
+.gamer-heading, span.f-videos, span.online{
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-description{
+
+}
+.primary-btn{
+
+}
+.gamer-caption{
+
+}
+.gamer-inspiration-h2{
+
+}   /*gamer-section-end*/
+
+/*funny video-section starts */
+.funny-videos{
+
+}
+.funny-videos h1{
+
+}
+.funny-videos .gray text{
+
+}
+.card-area{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.card{
+width: 250px;
+}  
+.card img{
+    
+max-width: 100%;
+} /*funny-videos section end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive*/
+@media screen and (max-width: 576px){
+    nav,
+    .nav-menu,
+    .nav-menu-option
+    {
+        flex-direction: column;
+    margin-left: 10px;
+    
+}
+    .logo {
+        justify-content: flex-start;
+        padding-left: 52px;
+    }
+
+    .banner-main {
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+    }
+
+    .banner-txt{
+        max-width: 95%;
+        margin-left: 5%;
+    
+        padding: 15px 0;
+        text-align: center;    
+    }
+
+        .banner-img{
+            width: 100%;
+        }
+}
