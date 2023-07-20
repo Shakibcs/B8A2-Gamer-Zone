@@ -280,10 +280,22 @@ ul.game-list-2{
 .game-list-2 li{display: flex;}
 
  
+/*footer styles*/
+footer{}
+.footer-logo{}
+.footer-logo img{}
+.footer-menu ul{}
+.footer-menu li{}
+.footer-menu{}
 
-
-
-
+footer>.social-link{}
+footer>.social-link>ul{}
+footer>.social-link>ul>li{}
+footer>.social-link>ul>li>img{}
+.footer-bottom-menu{}
+.footer-bottom-menu ul{}
+.footer-bottom-menu ul li{}
+.copy-right{}
 
 
 
