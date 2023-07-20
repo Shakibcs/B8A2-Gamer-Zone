@@ -18,6 +18,13 @@ font-family: 'Work Sans', sans-serif;
     -webkit-text-fill-color: transparent;
 }
 
+.para-txt-18{
+    color: #534C64;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
 /*header styles starts */
 
 /*nav section */
@@ -171,7 +178,9 @@ main{
 .gamer-txt{
 max-width: 50%;
 }
-.gamer-heading, span.f-videos, span.online{
+
+/* Common Pink Heading gradient text style */
+.gamer-heading, span.f-videos, span.online, span.f-videos{
     font-size: 48px;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -179,6 +188,7 @@ max-width: 50%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .gamer-description{
 
 }
@@ -194,10 +204,15 @@ max-width: 50%;
 
 /*funny video-section starts */
 .funny-videos{
-
+    text-align: center;
 }
 .funny-videos h1{
-
+color: #0B0223;
+font-size: 48px;
+font-weight: 700;
+}
+span.f-videos{
+    
 }
 .funny-videos .gray text{
 
