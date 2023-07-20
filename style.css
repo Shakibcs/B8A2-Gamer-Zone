@@ -11,7 +11,11 @@ font-family: 'Work Sans', sans-serif;
     color: #3C354F;
 
 }
-.grad-pink-txt{
+
+/* Common Pink Heading gradient text style */
+.grad-pink-txt, .gamer-heading, span.f-videos, span.online, span.f-videos, span.instant-color{
+    font-size: 48px;
+    font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -149,11 +153,9 @@ text-transform: uppercase;
     text-transform: uppercase;
     background: #4EC5F7;
 }
-.banner-image{
-}
+.banner-image{}
 .banner-img{
     max-width: 100%; } /*header section end*/
-
 
 /*main section starts */
 .main-section{
@@ -178,26 +180,9 @@ main{
 .gamer-txt{
 max-width: 50%;
 }
-
-/* Common Pink Heading gradient text style */
-.gamer-heading, span.f-videos, span.online, span.f-videos{
-    font-size: 48px;
-    font-weight: 700;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.gamer-description{
-
-}
-.primary-btn{
-
-}
-.gamer-caption{
-
-}
+.gamer-description{}
+.primary-btn{}
+.gamer-caption{}
 .gamer-inspiration-h2{
 
 }   /*gamer-section-end*/
@@ -231,8 +216,70 @@ max-width: 100%;
 } /*funny-videos section end*/
 
 
+/*instant play styles*/
+.instant-play{
+    display: flex;
+    justify-content: space-between;
+   
+    justify-content: center;
+    
+
+.instant-txt{
+    width: 320px;
+    text-align: right;
+    padding: 0 130px;
+}
+}
+.instant-description{
+   
+}
+.instant-image{width: 400px;height: auto;}
+.instant-image img{width: 100%;}
+.instant-image .instant-kids-position {
+    width: 183px;
+    height: auto;
+    position: relative;
+    bottom: 30%;
+    right: 19%;
+}
+
+/*game-list styles*/
+ul.game-list{
+    
+}
+ul.game-list-1{
+    display: flex;
+    justify-content: space-between;
+ 
+ }
+.game-list-1 li{display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.game-list-1>li>img, .game-list-2>li>img{
+    width: 60px;
+    height: 60px;
+}
+.game-list-txt{
+    color: #0B0223;
+    font-size: 17px;
+    font-weight: 600;
+    padding-left: 2px;
+}
 
 
+ul.game-list-2{
+    display: flex;
+    justify-content: space-between;
+ 
+ }
+.game-list-2 list-2{
+    display: flex;
+    justify-content: space-between;
+}
+.game-list-2 li{display: flex;}
+
+ 
 
 
 
